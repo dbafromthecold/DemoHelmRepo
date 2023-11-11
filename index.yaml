@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  sqlserver:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-11-11T22:02:55.5216802Z"
+    description: A Helm chart for Kubernetes
+    digest: eeb741a6935e2dbbffd65d96a9f8670c8efaea642109e79e5aa124a0c07a57d2
+    name: sqlserver
+    type: application
+    urls:
+    - sqlserver-0.1.0.tgz
+    version: 0.1.0
   testchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-14T12:54:14.506896324+01:00"
+    created: "2023-11-11T22:02:55.5216802Z"
     description: A Helm chart for Kubernetes
     digest: 551e42c4e2d420eb2b2ab55d2078f27cf254dbfb634305f314c8dd63f60106e6
     name: testchart
@@ -11,4 +22,4 @@ entries:
     urls:
     - testchart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-14T12:54:14.506673055+01:00"
+generated: "2023-11-11T22:02:55.5216802Z"
